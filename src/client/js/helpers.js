@@ -121,7 +121,7 @@ const CreateTripInfo = ({
     <div class="weather">
         <p>Typical weather for then is:</p>
         <p>High - ${max_temp}, Low - ${min_temp}</p>
-        <p class="describtion">${weather.description}</p>
+        <p class="description">${weather.description}</p>
     </div>`;
 
     import(`../media/icons/${weather.icon}.png`)
@@ -131,7 +131,7 @@ const CreateTripInfo = ({
             iconElement.alt = "Weather Icon";
             iconElement.width = 32;
             iconElement.height = 32;
-            tripInfo.querySelector(".describtion").prepend(iconElement);
+            tripInfo.querySelector(".description").prepend(iconElement);
         })
         .catch((error) => {
             console.error("Error importing weather icon:", error);

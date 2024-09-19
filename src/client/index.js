@@ -8,7 +8,7 @@ import {
 
 import "./styles/style.scss";
 
-// Event listeners to validate the input fileds
+// Event listeners to validate the input fields
 document
     .getElementById("city")
     .addEventListener("input", handleInputsValidation);
