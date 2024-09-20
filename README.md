@@ -8,6 +8,7 @@ The project aims to make you comfortable with Web APIs and Asynchronous Applicat
 
 ## How To Run
 
+-   Ensure you have Node.js version 22.1.0 and npm version 10.7.0, as these are the versions used to setup this project.
 -   `cd` into your new folder and run: `npm install`
 -   Add you API keys to .env file under 'geonamesUserName', 'weatherbitApiKey' and 'pixabayApiKey'
 -   Run `npm run build-prod`
